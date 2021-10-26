@@ -20,6 +20,7 @@ const assertArraysEqual = function (arr1 , arr2) {
   return result; 
 }
 
+/* MY ANSWER THAT ALSO WORKS
 const findKeyByValue = function (object , answer){
   let result = " ";
   for (const key in object) {
@@ -30,6 +31,23 @@ const findKeyByValue = function (object , answer){
     }
   }
 
+  console.log(result)
+  return result;
+}
+*/
+
+
+//Lighthouse Labs Answer based on the tips 
+const findKeyByValue = function (object , answer){
+  let result = " ";
+  let array = Object.keys(object);
+  for (let i = 0; i < array.length; i++) {
+    if (answer === object[array[i]]) {
+      result = array[i];
+    } else {
+      result = undefined;
+    }
+  }
   console.log(result)
   return result;
 }
