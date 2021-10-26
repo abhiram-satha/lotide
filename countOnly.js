@@ -10,21 +10,17 @@ const countOnly = function(allItems, itemsToCount) {
     for (const item of allItems) {
         if (itemsToCount[item]) {
           if (results[item]) {
+            
             results[item] += 1;
           } else {
             results[item] = 1;
+            console.log(itemsToCount[item])
           }
       } 
     }
     console.log(results);
   return results;
 }
-
-
-
-
-
-
 
 //test scenarios
 const firstNames = [
