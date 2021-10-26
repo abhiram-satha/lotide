@@ -47,4 +47,4 @@ const flatten = function (arr) {
 }
 
 flatten([1, 2, [3, 4], 5, [6]]);
-flatten(["hi", [5,6,3,4,5]]);
+flatten('hi');

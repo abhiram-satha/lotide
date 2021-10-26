@@ -1,4 +1,4 @@
-const eqArrays = function (arr1 , arr2) {
+const assertArraysEqual = function (arr1 , arr2) {
   let result = true;
 
   for (var i = 0; i < arr1.length; i++) {
