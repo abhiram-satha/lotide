@@ -1,3 +1,16 @@
+const words = ["ground", "control", "to", "major", "tom"];
+
+const map = function(array, callback){
+  const results = [];
+  for (let item of array) {
+    results.push(callback(item))
+  }
+  return results;
+}
+
+const results1 = map(words , word => word[0]);
+console.log(results1);
+
 const assertArraysEqual = function (arr1 , arr2) {
   let result = true;
 
@@ -13,9 +26,4 @@ const assertArraysEqual = function (arr1 , arr2) {
   return result; 
 }
 
-
-eqArrays([1, 2, 3], [1, 2, 3]) // => true
-eqArrays([1, 2, 3], [3, 2, 1]) // => false
-
-eqArrays(["1", "2", "3"], ["1", "2", "3"]) // => true
-eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
+assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
