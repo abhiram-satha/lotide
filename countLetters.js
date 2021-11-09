@@ -10,7 +10,6 @@ const countLetters = function (sentence) {
   let numOfLetters = {};
     for (const letter of lowerSentence) {
       if (letter === " ") {
-        continue;
       } else if (numOfLetters[letter]) {
           numOfLetters[letter] += 1
       } else {
