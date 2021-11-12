@@ -9,8 +9,8 @@ describe('#flatten', () => {
     assert.deepEqual(actual, expected);
   })
   it('flatten("hi") should return an empty array', () => {
-    const actual = flatten([hi]);
-    const expected = [];
+    const actual = flatten(['hi']);
+    const expected = ['hi'];
 
     assert.deepEqual(actual, expected);
   })

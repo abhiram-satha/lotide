@@ -1,9 +1,4 @@
-const assertEqual = function(actual , expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
+const assertEqual = require('./assertEqual');
 
 const countOnly = function(allItems, itemsToCount) {
   const results = {}
@@ -14,13 +9,15 @@ const countOnly = function(allItems, itemsToCount) {
             results[item] += 1;
           } else {
             results[item] = 1;
-            console.log(itemsToCount[item])
+            //console.log(itemsToCount[item])
           }
       } 
     }
-    console.log(results);
+    //console.log(results);
   return results;
 }
+
+module.exports = countOnly;
 
 //test scenarios
 const firstNames = [
@@ -48,15 +45,3 @@ assertEqual(result1["Agouhanna"], undefined);
 
 
 
-// const countOnly = function(allItems, itemsToCount) {
-//   const results = {}
-//     for (const item of allItems) {
-//       if (!results.hasOwnProperty(item)) {
-//         results[item] = 1;
-//       } else {
-//         results[item] += 1;
-//       }
-//     }
-//     console.log(results);
-//   return results;
-// }
