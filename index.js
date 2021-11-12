@@ -8,6 +8,7 @@ const flatten = require('./flatten');
 const countOnly = require('./countOnly');
 const findKeyByValue = require('./findKeyByValue');
 const takeUntil = require('./takeUntil');
+const countLetters = require('./countLetters');
 
 
 module.exports = {
@@ -20,5 +21,6 @@ module.exports = {
   flatten,
   countOnly,
   findKeyByValue,
-  takeUntil
+  takeUntil,
+  countLetters
 };
