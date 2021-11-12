@@ -1,5 +1,5 @@
 const countLetters = function (sentence) {
-  let lowerSentence = sentence.toLowerCase();
+  const lowerSentence = sentence.toLowerCase();
   let numOfLetters = {};
     for (const letter of lowerSentence) {
       if (letter === " ") {
@@ -10,8 +10,7 @@ const countLetters = function (sentence) {
       }
     }
 
-    console.log(numOfLetters);
-  return numOfLetters;
+     return numOfLetters;
 }
 
 module.exports = countLetters;
