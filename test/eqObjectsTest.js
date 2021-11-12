@@ -4,7 +4,6 @@ const eqObjects = require('../eqObjects');
 describe('#eqObjects', function () {
   it('comparing variables cd & dc should return true', function() {
     const actual = eqObjects(cd, dc);
-    console.log(actual);
     const expected = true;
 
     assert.strictEqual(actual, expected);
