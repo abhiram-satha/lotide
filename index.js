@@ -9,6 +9,7 @@ const countOnly = require('./countOnly');
 const findKeyByValue = require('./findKeyByValue');
 const takeUntil = require('./takeUntil');
 const countLetters = require('./countLetters');
+const without = require('./require');
 
 
 module.exports = {
@@ -22,5 +23,6 @@ module.exports = {
   countOnly,
   findKeyByValue,
   takeUntil,
-  countLetters
+  countLetters,
+  without,
 };
