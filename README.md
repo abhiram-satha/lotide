@@ -26,10 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-  * `function1(head)`: returns the first element of an array
-  * `function2(tail)`: returns all the elements after the first element
-  * `function3(middle)`: returns the elements located in the middle of an array
-  * `function4(eqArrays)`: returns true is the elements of 2 arrays are equal and returns false if opposite
-  * `function5(assertEqual)`: compares 2 elements and returns true if they are equal and false if they are not
-  * `function6(assertArraysEqual)`: returns true is the elements of 2 arrays are equal and returns false if opposite
-  * `function7(flatten)`: Flattens out array of arrays into a single array
+  * `head`: returns the first element of an array
+  * `tail`: returns all the elements after the first element
+  * `middle`: returns the elements located in the middle of an array
+  * `eqArrays`: returns true is the elements of 2 arrays are equal and returns false if opposite
+  * `assertEqual`: compares 2 elements and returns true if they are equal and false if they are not
+  * `assertArraysEqual`: returns true is the elements of 2 arrays are equal and returns false if opposite
+  * `flatten`: Flattens out array of arrays into a single array
+  * `countOnly`: counts only the true items listed in the second argument
+  * `findKeyByValue`: Returns the key for the provided value within an object
+  * `takeUntil`: Splices an array until until the criteria set by callback function is met
+  * `countLetters`: Provides an object with the characters and the amount of times the characters appeared in the argument
+  * `without`: Takes two arrays as an argument, and returns the unique items from the first array argument
+  * `eqObjects`: compares two objects, and returns true if the key-values match, and false is they do not
+  * `findKey`: Returns the first key based on the callback function matches the value in an object
+  * `letterPositions`: provides an object of arrays, listing the index of the characters based in the function argument
+  * `map`: produces a new array based on the parameters set in the callback function, based as a second parameter
+
