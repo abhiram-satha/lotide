@@ -26,20 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-  * `head`: returns the first element of an array
-  * `tail`: returns all the elements after the first element
-  * `middle`: returns the elements located in the middle of an array
-  * `eqArrays`: returns true is the elements of 2 arrays are equal and returns false if opposite
-  * `assertEqual`: compares 2 elements and returns true if they are equal and false if they are not
-  * `assertArraysEqual`: returns true is the elements of 2 arrays are equal and returns false if opposite
-  * `flatten`: Flattens out array of arrays into a single array
-  * `countOnly`: counts only the true items listed in the second argument
-  * `findKeyByValue`: Returns the key for the provided value within an object
-  * `takeUntil`: Splices an array until until the criteria set by callback function is met
-  * `countLetters`: Provides an object with the characters and the amount of times the characters appeared in the argument
-  * `without`: Takes two arrays as an argument, and returns the unique items from the first array argument
-  * `eqObjects`: compares two objects, and returns true if the key-values match, and false is they do not
-  * `findKey`: Returns the first key based on the callback function matches the value in an object
-  * `letterPositions`: provides an object of arrays, listing the index of the characters based in the function argument
-  * `map`: produces a new array based on the parameters set in the callback function, based as a second parameter
+  * `head(array)`: returns the first element of an array
+  * `tail(array)`: returns all the elements after the first element
+  * `middle(array)`: returns the elements located in the middle of an array
+  * `eqArrays(array1, array2)`: returns true is the elements of 2 arrays are equal and returns false if opposite
+  * `assertEqual(actual, expected)`: compares 2 elements and returns true if they are equal and false if they are not
+  * `assertArraysEqual(array1, array2)`: returns true is the elements of 2 arrays are equal and returns false if opposite
+  * `flatten(array)`: Flattens out array of arrays into a single array
+  * `countOnly(allItems, itemsToCount)`: counts only the true items listed in the second argument
+  * `findKeyByValue(object, value)`: Returns the key for the provided value within an object
+  * `takeUntil(array, callback)`: Splices an array until until the criteria set by callback function is met
+  * `countLetters(sentence)`: Provides an object with the characters and the amount of times the characters appeared in the sentence
+  * `without(source, itemsToRemove)`: Takes two arrays as an argument, and returns the unique items from the first array argument
+  * `eqObjects(object1, object2)`: compares two objects, and returns true if the key-values match, and false is they do not
+  * `findKey(object, callback)`: Returns the first key based on the callback function matches the value in an object
+  * `letterPositions(sentence)`: provides an object of arrays, listing the index of the characters based in the function argument
+  * `map(array, callback)`: produces a new array based on the parameters set in the callback function, based as a second parameter
 
