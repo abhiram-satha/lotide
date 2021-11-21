@@ -14,6 +14,7 @@ const eqObjects = require('./eqObjects');
 const findKey = require('./findKey');
 const letterPositions = require('./letterPositions');
 const map = require('./map');
+const assertObjectsEqual = require('./assertObjectsEqual')
 
 
 
@@ -34,4 +35,5 @@ module.exports = {
   findKey,
   letterPositions,
   map,
+  assertObjectsEqual
 };
